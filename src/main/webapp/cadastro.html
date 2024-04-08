@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  	<h1>Cadastro de Produtos</h1>
+    <div class="center">    
+	    <form action="CadProduto" method="post">
+	        <table>
+	            <tr>
+	                <td><label class="label-azul-negrito" for="descricao">Descrição:</label></td>
+	                <td><input type="text" id="descricao" name="descricao"></td>
+	            </tr>
+	            <tr>
+	                <td><label class="label-azul-negrito" for="categoria">Categoria:</label></td>
+	                <td><input type="text" id="categoria" name="categoria"></td>
+	            </tr>
+	            <tr>
+	                <td><label class="label-azul-negrito" for="preco">Preço:</label></td>
+	                <td><input type="text" id="preco" name="preco"></td>
+	            </tr>
+	        </table>
+	        <div class="footer" >
+		        <button class="botao-arredondado" type="submit">Cadastrar</button>
+		        <a href="index.html"><button class="botao-arredondado" type="button" name="voltar">Voltar</button></a>
+	        </div>
+        </form>
+    </div>
+</body>
+</html>

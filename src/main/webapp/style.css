@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+.label-azul-negrito {
+    color: #4e4e9f;
+    font-weight: bold;
+}
+
+h1, h3 {
+    color: #4e4e9f;
+    text-align: center;
+}
+
+.botao-arredondado {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+	text-align: center;
+	padding: 5%;
+}
+.center {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.botao:hover {
+  background-color: #45a049;
+}
+
+
+.botao:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
